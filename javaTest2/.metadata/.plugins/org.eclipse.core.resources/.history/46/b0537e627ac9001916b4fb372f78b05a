@@ -1,0 +1,19 @@
+package chapter07.poly;
+
+public class BombTest {
+
+	public static void main(String[] args) {
+		Bomb[] bom = { new Building(), new Car(), new House(), new Tree() };
+
+		for (int i = 0; i < bom.length; i++) {
+
+			bom[i].bomb();
+
+		}
+		for (int i = 0; i < bom.length; i++) {
+
+			bom[i].sbomb();
+
+		}
+	}
+}

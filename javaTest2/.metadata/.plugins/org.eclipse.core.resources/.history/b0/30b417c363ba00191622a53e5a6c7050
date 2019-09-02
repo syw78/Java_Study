@@ -1,0 +1,22 @@
+package chapter02;
+
+import java.util.Scanner;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		int orange=0;
+		int orangeBox=0;
+		int orangeRemain=0;
+		
+		Scanner inputorange = new Scanner(System.in);
+		System.out.print("오렌지의 개수를 입력하시오");
+		orange=inputorange.nextInt();
+		orangeBox=orange/10;
+		orangeRemain=orange%10;
+		
+		System.out.println(orange/10+"개의 박스가 필요하고 "+orange%10+"개가 남습니다");
+	}
+
+}

@@ -1,0 +1,12 @@
+package chapter06.ex20;
+
+public class MyMetricTest {
+
+	public static void main(String[] args) {
+		MyMetric myme= new MyMetric();
+		
+		System.out.println(myme.kiloToMile(3));
+		System.out.println(myme.mileTokilo(3));
+	}
+
+}

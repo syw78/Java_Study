@@ -1,0 +1,19 @@
+package chapter07.p311;
+
+public class Rectangle extends Shape {
+
+	private int width;
+	private int height;
+	
+	public double area() {
+		
+		return 0.0;
+	}
+	public void draw() {
+		
+		super.print();
+		System.out.println();
+		
+	}
+	
+}

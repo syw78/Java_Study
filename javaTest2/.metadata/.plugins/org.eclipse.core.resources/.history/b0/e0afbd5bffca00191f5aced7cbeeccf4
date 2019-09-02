@@ -1,0 +1,23 @@
+package chapter07.ex10;
+
+public class Shape {
+	private int position; //위치
+	private int size; //크기
+	
+	public void setPosition() {
+		this.position=position;
+	}
+	public int getPosition() {
+		return position;
+	}
+	public void setSize() {
+		this.size=size;
+	}
+	public int getSize() {
+		return size;
+	}
+	
+	public void length() {
+		
+	}
+}

@@ -1,0 +1,26 @@
+package chapter02;
+
+import java.util.Scanner;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+		int money = 0;// 받은돈 입력,
+		int price = 0;// 상품값 입력.
+		int result = 0;// 부가세 상품값/10 출력
+		int change = 0;// 잔돈 받은돈-상품값 출력
+
+		Scanner input = new Scanner(System.in);
+		System.out.print("돈을 넣어주세요");
+		money = input.nextInt();
+		System.out.print("상품의 값을 넣어주세요");
+		price = input.nextInt();
+		result = price / 10;
+		change = money - price;
+
+		System.out.println("부가세" + result);
+		System.out.println("잔돈" + change);
+
+	}
+}

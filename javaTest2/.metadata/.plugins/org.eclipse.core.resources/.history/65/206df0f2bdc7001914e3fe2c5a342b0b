@@ -1,0 +1,15 @@
+package chapter07.car;
+
+public class CarTest {
+
+	public static void main(String[] args) {
+		SportsCar sc = new SportsCar(10);
+		//sc.speed = 10 ; 부모 private speed라 불가능
+		
+		sc.dspeed = 10;   //부모 default dspeed 라 됨
+		sc.setSpeed(10);   //부모 public 함수라 됨.
+		sc.pspeed = 10;   //
+		sc.pubspeed =10; // 부모 public 됨
+	}
+
+}

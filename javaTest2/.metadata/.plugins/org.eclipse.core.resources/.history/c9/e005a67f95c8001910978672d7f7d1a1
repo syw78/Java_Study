@@ -1,0 +1,15 @@
+package chapter07.single;
+
+public class SingleTonTest {
+
+	public static void main(String[] args) {
+		//SingleTom single = new SIngleTon(); 프라이빗 못불러옴
+		SingleTon single = SingleTon.getSingleTon();
+		single.print();
+		single.setString("완료못함");
+		single.print();
+		
+		SingleTon single2 = SingleTon.getSingleTon();
+	}
+
+}

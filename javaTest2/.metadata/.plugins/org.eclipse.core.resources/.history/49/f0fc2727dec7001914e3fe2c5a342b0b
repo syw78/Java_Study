@@ -1,0 +1,11 @@
+package chapter07.p309;
+
+public class AnimalTest {
+
+	public static void main(String[] args) {
+		Animal ani = new Animal();
+		ani.eat();
+		ani.sleep();
+	}
+
+}

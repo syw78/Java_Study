@@ -1,0 +1,11 @@
+package chapter02;
+
+public class Test {
+
+	public static void main(String[] args) {
+	long num=0;
+	num=9999999999999L;
+	System.out.println(num);
+				
+	}
+}

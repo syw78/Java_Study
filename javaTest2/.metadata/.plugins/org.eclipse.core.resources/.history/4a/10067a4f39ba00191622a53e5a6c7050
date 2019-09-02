@@ -1,0 +1,21 @@
+package chapter02;
+
+import java.util.Scanner;
+
+public class Ttest {
+
+		public static void main(String [] args) {
+	
+			
+			
+			String text=null;
+			Scanner input=new Scanner(System.in);
+			
+			System.out.println("문장을 입력하시오");
+			text=input.next
+			
+	
+			
+			
+		}
+}

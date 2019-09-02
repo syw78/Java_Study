@@ -1,0 +1,19 @@
+package chapter07.car;
+
+public class SportsCar extends Car{
+	private boolean turbo;
+	boolean dturbo;
+	int dspeed;
+	
+	public SportsCar(int speed) {
+		super(speed);
+		System.out.println("sportsCar »ý¼ºÀÚ");
+	}
+	
+	
+	public void setTurbo(boolean turbo) {
+		this.turbo = turbo;
+		super.dspeed=10;
+	}
+
+}

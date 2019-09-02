@@ -1,0 +1,40 @@
+package chapter09.comparable;
+
+public class RectangleTest {
+
+	public static void main(String[] args) {
+		Rectangle rec1 = new Rectangle(10, 20);
+		Rectangle rec2 = new Rectangle(20, 10);
+		Circle cir = new Circle(100);
+
+		System.out.println(rec1);
+		System.out.println(rec2);
+		System.out.println(cir);
+
+		int returnValue = rec1.compareTo(rec2);
+		switchFuntion(returnValue,"°´Ã¼1","°´Ã¼2");
+
+	
+
+	
+		returnValue = rec1.compareTo(cir);
+		switchFuntion(returnValue,"°´Ã¼1","¼­Å¬°´Ã¼");
+		
+	}
+		
+		public static void switchFuntion(int returnValue,String str1,String str2) {
+			switch (returnValue) {
+
+			case 1:
+				System.out.println(str1+"°´Ã¼1 Å­");
+				break;
+			case -1:
+				System.out.println(str2+"°´Ã¼2 Å­");
+				break;
+			case 0:
+				System.out.println(str1+"¿Í"+str2+"°°´Ù" );break;
+			}
+		
+		}
+		
+}

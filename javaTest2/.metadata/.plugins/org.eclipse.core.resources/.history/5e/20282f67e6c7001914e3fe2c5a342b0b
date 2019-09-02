@@ -1,0 +1,17 @@
+package chapter07.p311;
+
+public class RectangleTest {
+
+	public static void main(String[] args) {
+		Shape shape= new Shape();
+		shape.setX(5);
+		shape.setY(3);
+		shape.print();
+		Rectangle rec= new Rectangle();
+		rec.setWidth(10);
+		rec.setHeight(20);
+		rec.draw();
+	}
+	
+
+}

@@ -1,0 +1,15 @@
+package chapter07.ex9;
+
+public class PersonTest {
+
+	public static void main(String[] args) {
+		Person per = new Person();
+		Customer cu = new Customer();
+		
+		System.out.println(per.getAddress());
+		System.out.println(per.getName());
+		System.out.println(per.getNumber());
+		
+	}
+
+}

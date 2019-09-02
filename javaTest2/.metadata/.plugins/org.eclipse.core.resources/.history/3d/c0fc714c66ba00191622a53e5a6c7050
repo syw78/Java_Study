@@ -1,0 +1,19 @@
+package chapter02;
+
+import java.util.Scanner;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+		// 1마일은 1.609킬로미터, 마일을 킬로미터로 , 마일 입력
+		final double MILE = 1.609;
+		double mile = 0;
+
+		Scanner inputMile = new Scanner(System.in);
+		System.out.print("마일을 입력하시오 :");
+		mile = inputMile.nextDouble();
+
+		System.out.println(mile + "마일은" + MILE * mile + "킬로미터 입니다.");
+	}
+}

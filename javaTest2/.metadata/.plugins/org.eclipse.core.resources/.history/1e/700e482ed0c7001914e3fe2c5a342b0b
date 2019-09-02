@@ -1,0 +1,16 @@
+package chapter06.ex20;
+
+public class MyMetric {
+	private static double kilo=3.0;
+	private static double mile=3.0;
+
+	
+	static double kiloToMile() {
+		return kilo*0.625;
+	}
+	static double mileTokilo() {
+		return mile*1.609;
+	}
+	
+
+}

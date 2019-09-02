@@ -1,0 +1,10 @@
+package chapter07.p309;
+
+public class Eagle extends Animal {
+
+	private String wings;
+	
+	public void fly() {
+		System.out.println("fly()가 호출 되었습니다.");
+	}
+}

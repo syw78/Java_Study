@@ -1,0 +1,20 @@
+package chapter07.car;
+
+public class Car {
+	private int speed;
+	
+	public Car(int speed) {
+		super();
+		System.out.println("부모 생성자");
+		boolean dtutbo;
+	}
+	
+	int dspeed;
+	protected int pspeed;
+	public int pubspeed;
+	public void setSpeed(int speed) {
+		this.speed = speed;
+	}
+	
+	
+}

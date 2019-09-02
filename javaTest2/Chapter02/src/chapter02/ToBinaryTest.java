@@ -1,0 +1,26 @@
+package chapter02;
+
+import java.util.Scanner;
+
+public class ToBinaryTest {
+	public static void main(String[] args) {
+		int number = 0;
+
+		Scanner inputObject = new Scanner(System.in); // 입력받는기계(초기화 셋팅)
+		System.out.print("2진법으로 바꿀 정수값을 입력하시오 : ");
+		number = inputObject.nextInt();
+		String strValue = ToBinaryString(number);
+
+		System.out.println(number + "값을 2진법으로 변환=" + strValue);
+	}
+
+	public static String ToBinaryString(int value) {
+		String strValue = Integer.toBinaryString(value);
+		System.out.println("2진법으로 변환된 문자열 길이 :" + strValue.length());
+		while(strValue.length()<32){
+			strValue="0"+strValue;	
+		}
+		return strValue;
+	}
+
+}

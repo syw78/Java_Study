@@ -1,0 +1,20 @@
+package chapter07.ex10;
+
+public class Test {
+
+	public static void main(String[] args) {
+	
+		Shape sh= new Shape();
+		Triangle tr= new Triangle();
+		
+		sh.setWidth(3);
+		sh.setHeight(2);
+		System.out.println(sh.toString());
+		
+		tr.setWidth(4);
+		tr.setHeight(3);
+		System.out.println(tr.toString());
+	
+	}
+
+}

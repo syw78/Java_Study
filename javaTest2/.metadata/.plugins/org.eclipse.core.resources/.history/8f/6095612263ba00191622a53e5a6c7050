@@ -1,0 +1,15 @@
+package chapter02;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		double speed=0.0,time=0.0,distance=0.0;
+		speed=90.0;
+		time=60.0;
+		distance=speed*time;
+		System.out.println(distance);
+		
+	}
+
+}
