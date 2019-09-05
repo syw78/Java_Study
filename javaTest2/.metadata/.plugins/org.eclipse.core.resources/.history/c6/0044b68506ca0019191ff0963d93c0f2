@@ -1,5 +1,0 @@
-package chapter09.comparable;
-
-public interface comparable {
-
-}

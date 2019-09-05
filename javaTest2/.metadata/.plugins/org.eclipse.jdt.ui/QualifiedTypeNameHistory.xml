@@ -1,24 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="chapter06.ban06.BanB01"/>
-<fullyQualifiedTypeName name="chapter06.circle.Circle"/>
-<fullyQualifiedTypeName name="chapter06.ex3.Television"/>
-<fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
-<fullyQualifiedTypeName name="chapter06.arrayproc.ArrayProc"/>
-<fullyQualifiedTypeName name="chapter06.arrayproc2.ArrayProc"/>
-<fullyQualifiedTypeName name="chapter06.employee.Employee"/>
-<fullyQualifiedTypeName name="chapter06.outerclass.OuterClass.StaticClassB"/>
-<fullyQualifiedTypeName name="chapter06.outerclass.OuterClass.InnerClassB"/>
-<fullyQualifiedTypeName name="chapter06.outerclass.OuterClass"/>
-<fullyQualifiedTypeName name="chapter06.outerclass.OuterClass.StaticClass"/>
-<fullyQualifiedTypeName name="chapter06.outerclass.OuterClass.InnerClass"/>
-<fullyQualifiedTypeName name="chapter06.ex28.Average"/>
-<fullyQualifiedTypeName name="chapter06.ex30.Plane"/>
-<fullyQualifiedTypeName name="chapter06.ex33.BankAccount"/>
-<fullyQualifiedTypeName name="chapter07.car.SportsCar"/>
-<fullyQualifiedTypeName name="chapter06.ex20.MyMetric"/>
-<fullyQualifiedTypeName name="chapter06.ex26.Employee"/>
-<fullyQualifiedTypeName name="chapter07.p309.Animal"/>
 <fullyQualifiedTypeName name="chapter07.p309.Eagle"/>
 <fullyQualifiedTypeName name="chapter07.p311.Rectangle"/>
 <fullyQualifiedTypeName name="chapter07.ex1.GraduateStudent"/>
@@ -57,7 +38,26 @@
 <fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="java.sql.Date"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
-<fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
 <fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="chapter09.ex17.Movable"/>
+<fullyQualifiedTypeName name="chapter09.ex17.Triangle"/>
+<fullyQualifiedTypeName name="javax.management.RuntimeErrorException"/>
+<fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+<fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
+<fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="java.lang.ClassCastException"/>
+<fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="chapter14.ex14.MyException"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="chapter14.ex15.NotFoundException"/>
+<fullyQualifiedTypeName name="chapter15.ex13.MyMath"/>
+<fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+<fullyQualifiedTypeName name="chapter14.ex1515.NotFoundException"/>
+<fullyQualifiedTypeName name="java.lang.NegativeArraySizeException"/>
+<fullyQualifiedTypeName name="chapter14.ex16.BankAccount"/>
+<fullyQualifiedTypeName name="chapter14.ex16.NegativeBalanceException"/>
+<fullyQualifiedTypeName name="chapter15.comparable.MyClass"/>
 </qualifiedTypeNameHistroy>
