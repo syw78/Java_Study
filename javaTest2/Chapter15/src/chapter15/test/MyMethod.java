@@ -1,6 +1,6 @@
-package chapter15.comparable;
+package chapter15.test;
 
-public class MyArrayAlg {
+public class MyMethod {
 	public static <T extends Comparable> T getMax(T[] a) {
 		if(a==null||a.length==0) {
 			return null;
@@ -9,12 +9,9 @@ public class MyArrayAlg {
 		
 		for(int i=0;i<a.length;i++) {
 			if(largest.compareTo(a[i])<0) {
-				
-				largest= a[i];
-				
+				largest = a[i];
 			}
 		}
-		
 		return largest;
 	}
 }
