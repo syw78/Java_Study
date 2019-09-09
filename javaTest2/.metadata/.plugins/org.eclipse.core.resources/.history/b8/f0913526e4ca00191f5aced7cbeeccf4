@@ -1,7 +1,0 @@
-package chapter09.newcomparable;
-
-import chapter09.comparable.comparable;
-
-public interface Comparable extends comparable {
-
-}

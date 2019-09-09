@@ -1,5 +1,0 @@
-package chapter09.secondcomparable;
-
-public class Rectangle implements Comparable {
-	
-}
