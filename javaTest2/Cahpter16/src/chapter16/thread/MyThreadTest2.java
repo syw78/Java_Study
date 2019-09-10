@@ -14,7 +14,12 @@ public class MyThreadTest2 {
 
 			Toolkit tool = Toolkit.getDefaultToolkit();
 			for (int i = 0; i < 5; i++) {
-				tool.beep();
+				
+				if(i==2||i==3) {
+					Thread.yield(); //¾çº¸
+				}else {
+					tool.beep();	
+				}
 				try {
 					Thread.sleep(500);
 				} catch (InterruptedException e) {

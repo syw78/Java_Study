@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="javax.swing.Timer"/>
-<fullyQualifiedTypeName name="java.lang.InterruptedException"/>
-<fullyQualifiedTypeName name="chapter07.ex8.Cylinder"/>
-<fullyQualifiedTypeName name="chapter07.ex9.Person"/>
-<fullyQualifiedTypeName name="chapter07.ex9.Customer"/>
-<fullyQualifiedTypeName name="chapter09.newcomparable.Rectangle"/>
-<fullyQualifiedTypeName name="chapter09.secondcomparable.Rectangle"/>
-<fullyQualifiedTypeName name="chapter09.ex14.Student"/>
-<fullyQualifiedTypeName name="chapter09.ex14.UnderGraduate"/>
-<fullyQualifiedTypeName name="chapter09.ex14.Graduate"/>
-<fullyQualifiedTypeName name="java.lang.Override"/>
-<fullyQualifiedTypeName name="chapter07.ex10.Shape"/>
 <fullyQualifiedTypeName name="chapter07.ex10.Triangle"/>
 <fullyQualifiedTypeName name="java.util.Calendar"/>
-<fullyQualifiedTypeName name="java.lang.Math"/>
 <fullyQualifiedTypeName name="chapter09.ex6.GraphicsObject"/>
 <fullyQualifiedTypeName name="chapter09.ex6.Rectangle"/>
 <fullyQualifiedTypeName name="chapter09.ex11.Point2D"/>
@@ -49,15 +36,28 @@
 <fullyQualifiedTypeName name="chapter15.vector.MyClass"/>
 <fullyQualifiedTypeName name="chapter15.p977.ArrayListTest"/>
 <fullyQualifiedTypeName name="chapter15.p977.ArrayListTest2"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.Iterator"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="chapter15.vector.HashSet"/>
 <fullyQualifiedTypeName name="java.util.HashSet"/>
-<fullyQualifiedTypeName name="java.util.Iterator"/>
 <fullyQualifiedTypeName name="java.util.Queue"/>
 <fullyQualifiedTypeName name="java.util.LinkedList"/>
 <fullyQualifiedTypeName name="java.lang.Thread"/>
+<fullyQualifiedTypeName name="chapter15.ttest.MyClass"/>
+<fullyQualifiedTypeName name="chapter15.ttest.MyMethod"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.lang.Math"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="chapter16.thread.MyThread"/>
+<fullyQualifiedTypeName name="java.awt.Toolkit"/>
+<fullyQualifiedTypeName name="java.lang.Runnable"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.Map.Entry"/>
+<fullyQualifiedTypeName name="java.io.ObjectInputStream.GetField"/>
+<fullyQualifiedTypeName name="chapter15.maptest.Student"/>
+<fullyQualifiedTypeName name="java.util.TreeSet"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
 </qualifiedTypeNameHistroy>
