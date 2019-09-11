@@ -28,8 +28,5 @@ public class MyThreadTest {
 		mt.start();
 		mt2.start();
 		//mt.run(); 런 스타트 둘다 돌아감.
-		
-		
 	}
-
 }
