@@ -15,7 +15,6 @@ public class CharacterTest {
 			fr = new FileReader("input.txt");
 		} catch (FileNotFoundException e) {
 		}
-
 		try {
 			fw = new FileWriter("output2");
 		} catch (IOException e) {
