@@ -20,6 +20,8 @@ public class ServerTest {
 			Player player1 = new Player(game, socket, 'X');
 			Socket socket1 =ss.accept();
 			Player player2 = new Player(game, socket1, 'O');
+			player1.other=player2;
+			player2.other=player1;
 			player1.start();
 			player2.start();
 		}//end of while
@@ -36,17 +38,17 @@ public class ServerTest {
 	public static class Game{
 		private char[][] boards = new char[3][3];
 
-		public char getBoards(int i ,int j) {
+		public synchronized char getBoards(int i ,int j) {
 			return boards[i][j];
 		}
 
-		public void setBoards(int i ,int j,char playerMark) {
+		public synchronized void setBoards(int i ,int j,char playerMark) {
 			
 			this.boards[i][j] =playerMark;
 		}
 		
 		
-		public void printBoard() {
+		public synchronized void printBoard() {
 			for(int k =0;k<3;k++) {
 				System.out.println(" "+boards[k][0]+"| "+boards[k][1]+"| "+boards[k][2]+"| ");
 				if(k!=2) {
@@ -96,7 +98,7 @@ public class ServerTest {
 						int j= Integer.parseInt(command.substring(7,8));
 						game.setBoards(i, j, playerMark);
 						game.printBoard();
-						other.pw.println("OTHER "+i +" "+j);
+						other.pw.println("OTHER "+i+" "+j);
 						pw.println("PRINT 기다리세요");
 						other.pw.println("PRINT 당신차례입니다.");
 						

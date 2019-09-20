@@ -111,7 +111,7 @@
 		<item key="OmitCallToSuper" value="false"/>
 	</section>
 	<section name="DialogBounds_GenerateConstructorUsingFieldsSelectionDialog">
-		<item key="DIALOG_X_ORIGIN" value="887"/>
+		<item key="DIALOG_X_ORIGIN" value="429"/>
 		<item key="DIALOG_Y_ORIGIN" value="153"/>
 		<item key="DIALOG_WIDTH" value="531"/>
 		<item key="DIALOG_HEIGHT" value="677"/>
