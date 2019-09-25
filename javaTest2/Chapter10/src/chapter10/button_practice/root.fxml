@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="250.0" prefWidth="450.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller= "chapter10.button_practice">
+   <children>
+      <CheckBox fx:id="chBGlasses" layoutX="26.0" layoutY="61.0" mnemonicParsing="false" text="안경" />
+      <CheckBox fx:id="chBCap" layoutX="26.0" layoutY="109.0" mnemonicParsing="false" text="모자" />
+      <ImageView fx:id="chImage" fitHeight="126.0" fitWidth="113.0" layoutX="83.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../button_tools/images/geek.gif" />
+         </image>
+      </ImageView>
+      <Separator layoutX="211.0" layoutY="17.0" orientation="VERTICAL" prefHeight="171.0" prefWidth="0.0" />
+      <RadioButton fx:id="rdoButton1" layoutX="226.0" layoutY="61.0" mnemonicParsing="false" text="RadioButton" />
+      <RadioButton fx:id="rdoButton2" layoutX="227.0" layoutY="101.0" mnemonicParsing="false" text="RadioButton" />
+      <RadioButton fx:id="rdoButton3" layoutX="228.0" layoutY="141.0" mnemonicParsing="false" text="RadioButton" />
+      <ImageView fx:id="imgChart" fitHeight="134.0" fitWidth="113.0" layoutX="327.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../button_tools/images/areaChart.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnExit" layoutX="188.0" layoutY="181.0" mnemonicParsing="false" onAction="#handlerExitButtonAction" prefHeight="30.0" prefWidth="20.0">
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../button_tools/images/exit.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>

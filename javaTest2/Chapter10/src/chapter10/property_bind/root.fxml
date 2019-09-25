@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="200.0" prefWidth="300.0" spacing="5.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="chapter10.property_bind.RootController">
+   <children>
+      <Label fx:id="lblTextArea1" text="TextArea1" />
+      <TextArea fx:id="textArea1" prefHeight="200.0" prefWidth="200.0" />
+      <Label fx:id="lblTextArea2" text="TextArea2" />
+      <TextArea fx:id="textArea2" prefHeight="200.0" prefWidth="200.0" />
+      <Button fx:id="btnBind" mnemonicParsing="false" text="바인드시작" />
+      <Button fx:id="btnUnbind" mnemonicParsing="false" text="바인드해제" />
+   </children>
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+</VBox>

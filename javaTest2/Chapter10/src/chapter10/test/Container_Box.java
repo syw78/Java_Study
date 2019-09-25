@@ -30,7 +30,7 @@ public class Container_Box extends Application {
 		Button button = new Button();
 		
 		button.setText("확인");
-		button.setOnAction((e)->Platform.exit());
+		button.setOnAction((e)->Platform.exit()); //확인 버튼 누르면 종료하는것.
 		
 		ObservableList<Node> obs = vbox.getChildren();
 		

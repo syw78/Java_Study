@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="200.0" prefWidth="300.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="chapter10.event_test_final.RootController">
+   <children>
+      <Label fx:id="label" layoutX="121.0" layoutY="36.0" text="어렵구만유" textFill="#113fd7" />
+      <Button fx:id="button1" layoutX="32.0" layoutY="121.0" mnemonicParsing="false" text="안녕하세요" />
+      <Button fx:id="button2" layoutX="123.0" layoutY="121.0" mnemonicParsing="false" text="잘가세요" />
+      <Button fx:id="button3" layoutX="214.0" layoutY="121.0" mnemonicParsing="false" onAction="#handlerButton3Action" text="어려워요" />
+   </children>
+</AnchorPane>

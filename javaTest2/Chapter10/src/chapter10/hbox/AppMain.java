@@ -3,8 +3,10 @@ package chapter10.hbox;
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.collections.ObservableList;
+import javafx.fxml.FXMLLoader;
 import javafx.geometry.Pos;
 import javafx.scene.Node;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
@@ -18,12 +20,16 @@ public class AppMain extends Application {
 
 	@Override
 	public void start(Stage primaryStage) throws Exception {
+		/*
 		//1.루트 컨테이너와 컨트롤러를 만든다. 여러가지가있다.
 				HBox hBox= new HBox();
 				hBox.setPrefHeight(150); //세로
 				hBox.setPrefWidth(350); //가로
 				hBox.setAlignment(Pos.CENTER); //가운데 정렬  
 				hBox.setSpacing(30); //여백 공간  
+				//<ns=namespace xmlns:fx를 쓰면 저 주소가 이것이다 하는것>
+				
+				
 				
 				//2.컨트롤러
 				TextField textField=new TextField();
@@ -40,7 +46,8 @@ public class AppMain extends Application {
 				ObservableList<Node> list = hBox.getChildren();
 				list.add(textField);
 				list.add(button);
-				
+				*/
+				Parent hBox = FXMLLoader.load(getClass().getResource("root1.fxml"));
 				//4.루트 컨테이너를 scene에 집어넣는다.
 				Scene scene = new Scene(hBox);
 				//5.stage에 scene를 집어넣는다.
