@@ -1,4 +1,4 @@
-package chapter10.button_practice;
+package chapter10.input_controll;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
