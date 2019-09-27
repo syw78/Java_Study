@@ -37,8 +37,6 @@ public class RootController implements Initializable {
 				}
 			});
 
-			
-			
 			//@Override
 		//	public void handle(Event event) {
 //				String data =textArea1.getText();     area1¿¡¼­ area2·Î

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="200.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chapter10.slider_test.RootController">
+   <children>
+      <Slider fx:id="slider" layoutX="9.0" layoutY="172.0" prefHeight="14.0" prefWidth="298.0" />
+      <Label fx:id="label" alignment="CENTER" contentDisplay="CENTER" layoutX="143.0" layoutY="85.0" text="JavaFX" textAlignment="CENTER" textOverrun="CENTER_ELLIPSIS" />
+   </children>
+</AnchorPane>
