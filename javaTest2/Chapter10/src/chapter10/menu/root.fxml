@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.input.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="200.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chapter10.menu.RootController">
+   <children>
+      <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="400.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="파일">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#hadlerMenuItemNewAction" text="새로만들기">
+                     <accelerator>
+                        <KeyCodeCombination alt="ANY" code="N" control="ANY" meta="ANY" shift="DOWN" shortcut="ANY" />
+                     </accelerator>
+                     <graphic>
+                        <ImageView fitHeight="15.0" fitWidth="15.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icon/new.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </MenuItem>
+                  <MenuItem mnemonicParsing="false" onAction="#hadlerMenuItemOpenAction" text="열기">
+                     <accelerator>
+                        <KeyCodeCombination alt="ANY" code="O" control="DOWN" meta="ANY" shift="ANY" shortcut="ANY" />
+                     </accelerator>
+                     <graphic>
+                        <ImageView fitHeight="15.0" fitWidth="15.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icon/open.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </MenuItem>
+                  <MenuItem mnemonicParsing="false" onAction="#handlerMenuItemSave" text="저장">
+                     <accelerator>
+                        <KeyCodeCombination alt="ANY" code="S" control="DOWN" meta="ANY" shift="ANY" shortcut="ANY" />
+                     </accelerator>
+                     <graphic>
+                        <ImageView fitHeight="15.0" fitWidth="15.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@icon/save.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </MenuItem>
+                  <SeparatorMenuItem mnemonicParsing="false" />
+                  <MenuItem mnemonicParsing="false" onAction="#handlerMenuItemExitAction" text="끝내기">
+                     <accelerator>
+                        <KeyCodeCombination alt="ANY" code="X" control="DOWN" meta="ANY" shift="ANY" shortcut="ANY" />
+                     </accelerator>
+                  </MenuItem>
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <ToolBar layoutY="27.0" prefHeight="40.0" prefWidth="400.0">
+        <items>
+          <Button mnemonicParsing="false" onAction="#hadlerMenuItemNewAction">
+               <graphic>
+                  <ImageView fitHeight="15.0" fitWidth="15.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@icon/new.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#hadlerMenuItemOpenAction">
+               <graphic>
+                  <ImageView fitHeight="15.0" fitWidth="15.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@icon/open.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#handlerMenuItemSave">
+               <graphic>
+                  <ImageView fitHeight="15.0" fitWidth="15.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@icon/save.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+        </items>
+      </ToolBar>
+      <TextArea fx:id="textArea" layoutY="67.0" prefHeight="197.0" prefWidth="400.0" />
+   </children>
+</AnchorPane>

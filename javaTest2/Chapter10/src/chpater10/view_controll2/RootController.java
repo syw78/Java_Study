@@ -20,6 +20,9 @@ import javafx.scene.image.ImageView;
 
 public class RootController implements Initializable {
 	// 1. 변수선언 (리스트뷰, 테이블뷰, 이미지뷰)
+//	@FXML private ListView<String> listView;
+//	@FXML private TableView<Phone> tableView;
+//	@FXML private ImageView imageView;
 	@FXML private ListView<String> listView;
 	@FXML private TableView<Phone> tableView;
 	@FXML private ImageView imageView;
@@ -33,7 +36,33 @@ public class RootController implements Initializable {
 		insertTableViewItemAndEventProcess();
 
 	} // end initialize
+	private void insertListViewItemAndEventProcess() {
+		// 1. ObservableList<String> listViewData 객체를 구한다.
+		ObservableList<String> list=FXCollections.observableArrayList();
+		// 2. listViewData에(리스트뷰) 갤럭시S1 ~ 갤럭시S7 추가한다
+		list.add("갤럭시S1");
+		list.add("갤럭시S2");
+		list.add("갤럭시S3");
+		list.add("갤럭시S4");
+		list.add("갤럭시S5");
+		list.add("갤럭시S6");
+		list.add("갤럭시S7");
+		// 3. 리스트뷰에 listViewData를 추가한다.
+		listView.setItems(list);
+		// 4. 리스트뷰에 이벤트처리한다. (힌트: getSelectionModel())
+		listView.getSelectionModel().selectedIndexProperty().addListener(new ChangeListener<Number>() {
 
+			@Override
+			public void changed(ObservableValue<? extends Number> observable, Number oldValue, Number newValue) {
+				// 4.1 테이블뷰 위치를 부여한다. 선택한다.
+				int number =newValue.intValue();
+				tableView.getSelectionModel().select(number);
+				// 4.2 테이블뷰 scrollTo(위치)선택한다.
+				tableView.scrollTo(number);
+			}
+		});
+	}
+	
 	private void insertTableViewItemAndEventProcess() {
 		// 1. ObservableList<Phone> tableViewData 객체를 구한다.
 		ObservableList<Phone>tableViewData = FXCollections.observableArrayList();
@@ -68,32 +97,7 @@ public class RootController implements Initializable {
 			}
 		});
 	}
-	private void insertListViewItemAndEventProcess() {
-		// 1. ObservableList<String> listViewData 객체를 구한다.
-		ObservableList<String> list=FXCollections.observableArrayList();
-		// 2. listViewData에(리스트뷰) 갤럭시S1 ~ 갤럭시S7 추가한다
-		list.add("갤럭시S1");
-		list.add("갤럭시S2");
-		list.add("갤럭시S3");
-		list.add("갤럭시S4");
-		list.add("갤럭시S5");
-		list.add("갤럭시S6");
-		list.add("갤럭시S7");
-		// 3. 리스트뷰에 listViewData를 추가한다.
-		listView.setItems(list);
-		// 4. 리스트뷰에 이벤트처리한다. (힌트: getSelectionModel())
-		listView.getSelectionModel().selectedIndexProperty().addListener(new ChangeListener<Number>() {
 
-			@Override
-			public void changed(ObservableValue<? extends Number> observable, Number oldValue, Number newValue) {
-				// 4.1 테이블뷰 위치를 부여한다. 선택한다.
-				int number =newValue.intValue();
-				tableView.getSelectionModel().select(number);
-				// 4.2 테이블뷰 scrollTo(위치)선택한다.
-				tableView.scrollTo(number);
-			}
-		});
-	}
 	public void handlerButtonOKAction(ActionEvent e) {
 		// 1. 선택된 리스트뷰를 가져와서. getSelectionModel() 출력한다.
 		String data=listView.getSelectionModel().getSelectedItem();
