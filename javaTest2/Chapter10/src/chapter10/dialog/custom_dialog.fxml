@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.HBox?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/dialog-warning.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="127.0" layoutY="25.0" text="시험점수를 입력하세요" />
+      <Label layoutX="70.0" layoutY="66.0" text="국어" />
+      <TextField id="textFieldKor" layoutX="112.0" layoutY="62.0" prefHeight="23.0" prefWidth="134.0" />
+      <Label layoutX="70.0" layoutY="101.0" text="영어" />
+      <Label layoutX="70.0" layoutY="136.0" text="음악" />
+      <TextField id="textFieldEng" layoutX="112.0" layoutY="97.0" prefHeight="23.0" prefWidth="134.0" />
+      <TextField id="textFiledMus" layoutX="112.0" layoutY="132.0" prefHeight="23.0" prefWidth="134.0" />
+      <Button id="buttonOK" layoutX="273.0" layoutY="74.0" mnemonicParsing="false" text="확  인" />
+      <Button id="buttonClear" layoutX="273.0" layoutY="121.0" mnemonicParsing="false" text="취  소" />
+   </children>
+</AnchorPane>

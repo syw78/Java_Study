@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.HBox?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="53.0" layoutY="34.0" text="국어" />
+      <Label layoutX="53.0" layoutY="64.0" text="영어" />
+      <Label layoutX="53.0" layoutY="94.0" text="수학" />
+      <Label layoutX="53.0" layoutY="121.0" text="총점" />
+      <Label layoutX="53.0" layoutY="149.0" text="평균" />
+      <TextField id="txtFK" layoutX="88.0" layoutY="30.0" />
+      <TextField id="txtFE" layoutX="88.0" layoutY="60.0" />
+      <TextField id="txtFM" layoutX="88.0" layoutY="89.0" />
+      <TextField id="txtFT" layoutX="88.0" layoutY="117.0" />
+      <TextField id="txtFEV" layoutX="88.0" layoutY="145.0" />
+      <Label layoutX="142.0" layoutY="7.0" text="점수 입력하세요" />
+      <Button id="buttonT" layoutX="282.0" layoutY="42.0" mnemonicParsing="false" text="총점" />
+      <Button id="buttonE" layoutX="282.0" layoutY="87.0" mnemonicParsing="false" text="평균" />
+      <Button id="buttonEX" layoutX="282.0" layoutY="134.0" mnemonicParsing="false" text="취소" />
+   </children>
+</AnchorPane>
