@@ -118,7 +118,7 @@ public class RootController implements Initializable   {
 		//2.이 창이 모달인지 ,모달리스인지 결정해줘야 한다.(모달창을 만든다.)
 		stage.initModality(Modality.WINDOW_MODAL);   					//stage.initModality(Modality.WINDOW_MODAL);
 		//3.너의 주인 스테이지 누구랴를 셋팅한다.
-		stage.initOwner(hBox.getScene().getWindow()); 	stage.initOwner(hBox.getScene().getWindow());
+		stage.initOwner(hBox.getScene().getWindow()); 	
 		//4.타이틀을 정한다.
 		stage.setTitle("서연우의 서브창"); stage.setTitle("창"); 
 		stage.setResizable(false);		
@@ -146,7 +146,7 @@ public class RootController implements Initializable   {
 				textFieldEng.setText("0");
 				textFiledMus.setText("0");
 		});
-		
+		//8.씬에 적용시킨다.
 		Scene scene = new Scene(acP);
 		stage.setScene(scene);
 		stage.show();

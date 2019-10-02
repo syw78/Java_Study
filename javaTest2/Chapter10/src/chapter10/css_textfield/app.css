@@ -1,0 +1,16 @@
+TextField:focused{
+	-fx-border-insets:0, 5, 10; 
+	-fx-border-color : red;
+	-fx-border-width: 2;
+	-fx-border-style: solid dotted dashed segments(3,2,8,2);
+	-fx-background-color : rgba(0,0,0,0.2);
+}
+Button:hover{
+	-fx-border-color : skyblue;
+	-fx-background-color : white;
+}
+
+Button:pressed{
+	-fx-border-color : skyblue;
+	-fx-background-color : gray;
+}

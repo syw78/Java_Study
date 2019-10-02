@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:id="ancP" prefHeight="500.0" prefWidth="600.0" style="-fx-background-color: skyblue;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="chapter10.change_window_test.ScoreController">
+   <children>
+      <Label layoutX="244.0" layoutY="20.0" style="-fx-font-size: 35;" text="SCORE" />
+      <Button fx:id="buttonMA" layoutX="269.0" layoutY="72.0" mnemonicParsing="false" text="메인화면" />
+      <Label layoutX="130.0" layoutY="132.0" text="국어" />
+      <Label layoutX="130.0" layoutY="174.0" text="영어" />
+      <Label layoutX="129.0" layoutY="215.0" text="수학" />
+      <Label layoutX="129.0" layoutY="255.0" text="총점" />
+      <Label layoutX="130.0" layoutY="296.0" text="평균" />
+      <TextField fx:id="textKor" layoutX="189.0" layoutY="128.0" />
+      <TextField fx:id="textEn" layoutX="189.0" layoutY="170.0" />
+      <TextField fx:id="textMa" layoutX="189.0" layoutY="211.0" />
+      <TextField fx:id="textTo" layoutX="189.0" layoutY="251.0" />
+      <TextField fx:id="textEV" layoutX="188.0" layoutY="293.0" />
+      <Button fx:id="buttonT" layoutX="408.0" layoutY="136.0" mnemonicParsing="false" text="총점" />
+      <Button fx:id="buttonE" layoutX="410.0" layoutY="200.0" mnemonicParsing="false" text="평균" />
+      <Button fx:id="buttonCL" layoutX="404.0" layoutY="263.0" mnemonicParsing="false" text="지우기" />
+   </children>
+</AnchorPane>

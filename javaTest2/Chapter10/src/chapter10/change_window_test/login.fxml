@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:id="anchorPane" prefHeight="500.0" prefWidth="600.0" style="-fx-background-color: lightgray;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="chapter10.change_window_test.LoginController">
+   <children>
+      <Label layoutX="285.0" layoutY="31.0" text="Login" />
+      <Button fx:id="buttonToMain" layoutX="273.0" layoutY="66.0" mnemonicParsing="false" text="메인화면" />
+      <Label layoutX="170.0" layoutY="140.0" text="아이디" />
+      <Label layoutX="170.0" layoutY="200.0" text="패스워드" />
+      <TextField layoutX="232.0" layoutY="136.0" />
+      <TextField layoutX="231.0" layoutY="196.0" />
+      <Button layoutX="218.0" layoutY="250.0" mnemonicParsing="false" text="확인" />
+      <Button layoutX="316.0" layoutY="250.0" mnemonicParsing="false" text="취소" />
+   </children>
+</AnchorPane>

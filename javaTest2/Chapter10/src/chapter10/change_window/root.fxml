@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.StackPane?>
+
+
+<StackPane prefHeight="350.0" prefWidth="500.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="chapter10.change_window.RootController">
+   <children>
+      <AnchorPane prefHeight="350.0" prefWidth="500.0" style="-fx-background-color: #eaeaea;">
+         <children>
+            <Label layoutX="196.0" layoutY="43.0" style="-fx-font-size: 25;" text="메인 화면" />
+            <Button fx:id="buttonLogin" layoutX="225.0" layoutY="83.0" mnemonicParsing="false" text="로그인" />
+            <ImageView fitHeight="187.0" fitWidth="168.0" layoutX="174.0" layoutY="126.0" pickOnBounds="true">
+               <image>
+                  <Image url="@images/bean.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

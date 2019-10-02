@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<StackPane fx:id="stackPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chapter10.change_window_test.RootController">
+   <children>
+      <AnchorPane prefHeight="500.0" prefWidth="600.0">
+         <children>
+            <Label layoutX="230.0" layoutY="30.0" style="-fx-font-size: 35;" text="메인화면" />
+            <Button fx:id="buttonScore" layoutX="206.0" layoutY="80.0" mnemonicParsing="false" text="Score" />
+            <Button fx:id="buttonLogin" layoutX="346.0" layoutY="80.0" mnemonicParsing="false" text="Login" />
+            <ImageView fitHeight="390.0" fitWidth="594.0" layoutX="3.0" layoutY="106.0" pickOnBounds="true">
+               <image>
+                  <Image url="@images/life.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>
